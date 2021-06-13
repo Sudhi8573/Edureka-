@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-12T23:53:23 CDT" name="Edureka" finished-at="2021-06-12T23:54:13 CDT" duration-ms="49477">
+    <groups>
+    </groups>
+    <test started-at="2021-06-12T23:53:23 CDT" name="Test1" finished-at="2021-06-12T23:53:50 CDT" duration-ms="26647">
+      <class name="Appium.edureka.APIDemo_App_TC">
+        <test-method is-config="true" signature="beforemethods(java.lang.String)[pri:0, instance:Appium.edureka.APIDemo_App_TC@5ace1ed4]" started-at="2021-06-12T23:53:23 CDT" name="beforemethods" finished-at="2021-06-12T23:53:39 CDT" duration-ms="15654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethods -->
+        <test-method signature="general_login()[pri:1, instance:Appium.edureka.APIDemo_App_TC@5ace1ed4]" started-at="2021-06-12T23:53:39 CDT" name="general_login" finished-at="2021-06-12T23:53:40 CDT" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- general_login -->
+        <test-method signature="preference_page()[pri:2, instance:Appium.edureka.APIDemo_App_TC@5ace1ed4]" started-at="2021-06-12T23:53:40 CDT" name="preference_page" finished-at="2021-06-12T23:53:50 CDT" duration-ms="9194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preference_page -->
+      </class> <!-- Appium.edureka.APIDemo_App_TC -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-06-12T23:53:50 CDT" name="Test2" finished-at="2021-06-12T23:54:13 CDT" duration-ms="22777">
+      <class name="Appium.edureka.APIDemo_App_TC">
+        <test-method is-config="true" signature="server()[pri:0, instance:Appium.edureka.APIDemo_App_TC@5ace1ed4]" started-at="2021-06-12T23:53:20 CDT" name="server" finished-at="2021-06-12T23:53:23 CDT" duration-ms="3052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- server -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Appium.edureka.APIDemo_App_TC@5ace1ed4]" started-at="2021-06-12T23:54:13 CDT" name="aftertest" finished-at="2021-06-12T23:54:13 CDT" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Appium.edureka.APIDemo_App_TC -->
+      <class name="Appium.edureka.APIDemo_App_TC2">
+        <test-method is-config="true" signature="server()[pri:0, instance:Appium.edureka.APIDemo_App_TC2@10feca44]" started-at="2021-06-12T23:53:23 CDT" name="server" finished-at="2021-06-12T23:53:23 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- server -->
+        <test-method is-config="true" signature="beforemethods(java.lang.String)[pri:0, instance:Appium.edureka.APIDemo_App_TC2@10feca44]" started-at="2021-06-12T23:53:50 CDT" name="beforemethods" finished-at="2021-06-12T23:54:01 CDT" duration-ms="11706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethods -->
+        <test-method signature="dragDrop()[pri:0, instance:Appium.edureka.APIDemo_App_TC2@10feca44]" started-at="2021-06-12T23:54:01 CDT" name="dragDrop" finished-at="2021-06-12T23:54:13 CDT" duration-ms="11070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragDrop -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Appium.edureka.APIDemo_App_TC2@10feca44]" started-at="2021-06-12T23:54:13 CDT" name="aftertest" finished-at="2021-06-12T23:54:13 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Appium.edureka.APIDemo_App_TC2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Edureka -->
+</testng-results>

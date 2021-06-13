@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Edureka]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="deviceName" value="emulator-5554"/>
+    <classes>
+      <class name="Appium.edureka.APIDemo_App_TC">
+        <methods>
+          <include name="beforemethods"/>
+          <include name="aftertest"/>
+          <include name="dragDrop"/>
+          <include name="server"/>
+        </methods>
+      </class> <!-- Appium.edureka.APIDemo_App_TC -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Edureka] -->
